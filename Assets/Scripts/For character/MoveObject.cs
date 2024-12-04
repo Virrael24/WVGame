@@ -33,9 +33,15 @@ public class MoveObject : MonoBehaviour
 
             if (targetRigidbody != null)
             {
-                // Перемещаем объект в направлении от игрока
-                targetRigidbody.AddForce(-transform.right*moveDistance*transform.localScale.x);
-                Debug.Log(targetRigidbody);
+                if (targetObject.transform.position.x > transform.position.x)
+                {
+                    targetRigidbody.AddForce(Vector2.right * moveDistance);
+                }
+                else
+                {
+                    targetRigidbody.AddForce(Vector2.left * moveDistance);
+                } 
+                 
             }
         }
     }

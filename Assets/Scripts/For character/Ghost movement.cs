@@ -7,7 +7,7 @@ public class Ghostmovement : MonoBehaviour
     private Rigidbody2D rb; // Ссылка на компонент Rigidbody2D
     private Vector2 movement; // Вектор движения
     public Transform Player;
-
+    // это для Димочки public Skeletmovement Skeletmovement;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>(); // Получаем компонент Rigidbody2D
@@ -23,6 +23,7 @@ public class Ghostmovement : MonoBehaviour
         if (movement.x != 0)
         {
             transform.localScale = new Vector3(Mathf.Sign(movement.x*Player.localScale.x), 1, 1); // Поворачиваем персонажа
+           // тебе это не надо Skeletmovement.runSpeed = 4;
         }
     }
 
