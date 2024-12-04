@@ -819,7 +819,7 @@ PlayerSettings:
   webGLTemplate: APPLICATION:Default
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
-  webGLCompressionFormat: 0
+  webGLCompressionFormat: 2
   webGLWasmArithmeticExceptions: 0
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
@@ -863,9 +863,8 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: "\u0417\u044B\u043A\u043E\u0432\u0430 \u043F\u043B\u0430\u0442\u0444\u043E\u0440\u043C\u0435\u0440
-    (\u0442\u0440\u043E\u043D\u0435\u0448\u044C-\u0443\u0431\u044C\u044E)"
-  metroPackageVersion: 
+  metroPackageName: 
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -874,7 +873,7 @@ PlayerSettings:
   metroApplicationDescription: "\u0417\u044B\u043A\u043E\u0432\u0430 \u043F\u043B\u0430\u0442\u0444\u043E\u0440\u043C\u0435\u0440
     (\u0442\u0440\u043E\u043D\u0435\u0448\u044C-\u0443\u0431\u044C\u044E)"
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: "\u0410\u043D\u0430\u0440\u0445\u0438\u0441\u0442"
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
