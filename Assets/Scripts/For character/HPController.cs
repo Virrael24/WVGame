@@ -11,7 +11,9 @@ public class HPController : MonoBehaviour
     public int CurrentHP;
     public Sprite FullHP;
     public Sprite EmptyHP;
-    
+    public Animator aanimator;
+    public Skeletmovement Skeletmovement;
+
     void Start()
     {
         for (int i = 0; i < MaxHP; i++)
@@ -55,7 +57,9 @@ public class HPController : MonoBehaviour
 
         if(CurrentHP <= 0)
         {
+            aanimator.SetTrigger("Death");
 
+            Skeletmovement.Diactivate();
         }
     }
 }

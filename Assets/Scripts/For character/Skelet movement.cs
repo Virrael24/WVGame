@@ -23,6 +23,14 @@ public class Skeletmovement : MonoBehaviour
         UpdateAnimation();
     }
 
+    public void Diactivate()
+    {
+
+        rb.velocity = Vector2.zero;
+        this.enabled = false;
+
+    }
+
     private void Move()
     {
         float horizontalInput = Input.GetAxis("Horizontal");

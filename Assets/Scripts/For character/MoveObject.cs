@@ -4,6 +4,7 @@ public class MoveObject : MonoBehaviour
 {
     public float moveDistance = 2000f; // Расстояние, на которое будет сдвигаться объект
     public float interactionDistance = 3f; // Максимальная дистанция для взаимодействия
+    public Animator animator;
 
     void Update()
     {
@@ -11,6 +12,7 @@ public class MoveObject : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             MoveTargetObject();
+            animator.SetTrigger("Blow");
         }
     }
 
