@@ -111,6 +111,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveDistance: 75
   interactionDistance: 5
+  animator: {fileID: 3068538214556856888}
 --- !u!1 &936691063006880499
 GameObject:
   m_ObjectHideFlags: 0
